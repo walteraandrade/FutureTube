@@ -31,6 +31,19 @@
  figcaption {
     background-color: #A6A9C2;
     padding: 8px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ figcaption button {
+     border: solid 1px white;
+     background-color: #A6A9C2;
+     padding:  8px 16px;
+     margin-right:0px;
+ }
+
+ figcaption button:active {
+background-color: #6471AB;
  }
 
  input {
@@ -86,7 +99,7 @@
  div {
      display: flex;
      flex-flow: column wrap;
-     background-color: #6471AB;
+     background-color: #A6A9C2  ;
      border: 5px solid #A6A9C2;
  }
  
@@ -104,7 +117,7 @@
  }
  
  .container1, .container2, .container3, .container4 {
-height: 24vh;
+height: 27vh;
 width: 18vw;
  }
 
